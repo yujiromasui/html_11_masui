@@ -1,0 +1,456 @@
+/* ここから下に記載していく */
+.body{
+    width: 1200px;
+}
+.top{
+    display: flex;
+    width: 100%;
+}
+.top .a{
+    color: black;
+    margin-left: 180px;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.top img{
+    margin-left: 60px;
+}
+
+.main{
+    position: relative;
+}
+
+.main img {
+    width: 100%;
+}
+
+.main01{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main header{
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    top: 100px;
+    text-align: center;
+}
+
+.main p {
+    font-size: 32px;
+    margin-top: 30px;
+    top: 200px;
+    bottom: 100px;
+    color: white;
+    text-align: center;
+}
+
+.about header{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 60px;
+}
+
+.about h1{
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.about p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.about01{
+    margin-top: 60px;
+}
+
+.about02{
+    margin-top: 40px;
+}
+
+.about03{
+    margin-top: 10px;
+}
+
+.about img{
+    height: 220px;
+}
+
+.about001{
+    width: 300px;
+    margin-left: 65px;
+}
+
+.about002{
+    width: 350px;
+}
+
+.about003{
+    width: 300px;
+}
+
+.about1 {
+    margin-top: 80px;
+    display: flex;
+}
+
+.COURSE header{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 60px;
+}
+
+.COURSE .b{
+    text-align: center;
+    font-size: 16px;
+}
+
+.course01{
+    margin-top: 30px;
+}
+
+.course02{
+    margin-top: 10px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+}
+
+.grid1 img{
+    width: 100%;
+}
+
+.top2{
+    background-color: #fafafa;
+}
+
+.top2 header{
+    font-weight: bold;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.top2a{
+    margin-left: 50px;
+    margin-bottom: 120px;
+    width: 430px;
+}
+
+.top2a p{
+    margin-top: 10px;
+}
+
+.middle1{
+    background-color: #fafafa;
+}
+
+.middle1 header{
+    font-weight: bold;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+} 
+
+.middle1a{
+    margin-left: 200px;
+}
+
+.middle1a p{
+    margin-top: 10px;
+}
+
+.bottom2{
+    background-color: #fafafa;
+}
+
+.bottom2 header{
+    font-weight: bold;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+.bottom2a{
+    margin-left: 50px;
+    margin-bottom: 120px;
+}
+
+.bottom2 p{
+    margin-top: 10px;
+}
+
+.NEWS header{
+    color: yellow;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.NEWS p.news{
+    font-size: 18px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.pizza{
+    display: flex;
+}
+
+.pizza img{
+    width: 300px;
+}
+
+.pizza p{
+    margin-top: 24px;
+}
+
+.date01{
+    margin-top: 100px;
+}
+
+.pizza1{
+    margin-left: 180px;
+    margin-right: 30px;
+}
+
+.pizza1:hover{
+    opacity: 0.3;
+}
+
+.pizza2{
+    margin-right: 30px;
+}
+
+.pizza2:hover{
+    opacity: 0.3;
+}
+
+.pizza3{
+    margin-right: 120px;
+}
+
+.pizza3:hover{
+    opacity: 0.3;
+}
+
+.pizza{
+    text-align: center;
+}
+
+.more{
+    width: 250px;
+    background-color: yellow;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 100vh;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.more p{
+    padding: 10px 18px;
+    text-align: center;
+}
+
+.more:hover{
+    opacity: 0.7;
+    color: white;
+}
+
+.Access{
+    background-color:#fafafa;
+    text-align: center;
+}
+
+.Access img{
+    width: 100%;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.Access header{
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 60px;
+}
+
+.kaishajouhou{
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.kaishashousai{
+    font-size: 16px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.kaishashousai p{
+    margin-top: 30px;
+}
+
+.contact header{
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.contact1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contact3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.contact-form{
+    width: 328px;
+    margin: 0 auto;
+    padding: 60px;
+    border-color: #bfbfbf;
+}
+
+.contact-table{
+    width: 750px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.contact-item,
+.contact-body{
+    padding: 20px;
+    border: 1px solid #bfbfbf;
+}
+
+.contact-item{
+    text-align: left;
+    width: 30%;
+}
+
+.contact-body{
+    width: 70%;
+}
+
+.form-text{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 400px;
+}
+
+.form-text2{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 400px;
+}
+
+.form-select{
+    width: 180px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+}
+
+.contact-reason{
+    display: block;
+}
+
+.contact-reason + .contact-reason{
+    margin-top: 10px;
+}
+
+.contact-reason-txt{
+    margin-left: 5px;
+}
+
+.contact-submit{
+    width: 250px;
+    background-color: yellow;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 100vh;
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 240px;
+    box-sizing: border-box;
+}
+
+.footer{
+    width: 100%;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+    padding: 30px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.body{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
